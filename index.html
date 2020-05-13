@@ -1,0 +1,213 @@
+<head>
+   <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="HandheldFriendly" content="true"> 
+</head>
+
+<div class="container">
+    <header class="header">
+      <h1 id="title" class="text-center">Preferred Content Streaming</h1>
+      <p id= "description" class=" description text-center"> Your opinion matters and your time is valued, thank you!</p>
+ </p>
+  </header>
+  <form id="survey-form">
+    <div class="form-group">
+      <label id="name-label" for="name">Name</label>
+      <input
+        type="text"
+        name="name"
+        id="name"
+        class="form-control"
+        placeholder="First and Last Name"
+        required
+      />
+    </div>
+    <div class="form-group">
+      <label id="email-label" for="email">Email</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        class="form-control"
+        placeholder="Enter Your Email"
+        required
+      />
+    </div>
+    <div class="form-group">
+      <label id="number-label" for="number">Age</label>
+      
+      <input
+        type="number"
+        name="age"
+        id="number"
+        min="16"
+        max="99"
+        class="form-control"
+        placeholder="Age"
+      />
+    </div>
+    <div class="form-group">
+      <p>How many days a week do you stream?</p>
+      <select id="dropdown" name="days" class="form-control" required>
+        <option disabled selected value>Days Per Week</option>
+        <option value="0-2">0-2</option>
+        <option value="3-4">3-4</option>
+        <option value="5-6">5-6</option>
+        <option value="7">7</option>
+      </select>
+    </div>
+ <div class="form-group">
+      <p>
+        How many hours a day do you stream?
+      </p>
+      <select id="hours" name="hours" class="form-control" required>
+        <option disabled selected value>Hours Per Week</option>
+        <option value="less than 1">Less than 1</option>
+        <option value="1-2">1-2</option>
+        <option value="3-4">3-4</option>
+        <option value="more than 4">More than 4</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <p>What is your preferred content streaming Platform?</p>
+      <label>
+        <input
+          name="preferred-platform"
+          value="Hulu"
+          type="radio"
+          class="input-radio"
+        />Hulu</label
+      ><label>
+        <input
+          name="preferred-platform"
+          value="Netflix"
+          type="radio"
+          class="input-radio"
+        />Netflix</label
+      >
+      <label
+        ><input
+          name="preferred-platform"
+          value="Disney+"
+          type="radio"
+          class="input-radio"
+        />Disney+</label
+      >
+    </div>
+
+    <div class="form-group">
+      <p>
+        What kind of content do you stream?
+        <span class="clue">(Check all that apply)</span>
+      </p>
+
+      <label
+        ><input
+          name="prefer"
+          value="comedy-movies"
+          type="checkbox"
+          class="input-checkbox"
+        />Comedy Movies</label
+      >
+      <label>
+        <input
+          name="prefer"
+          value="action-movies"
+          type="checkbox"
+          class="input-checkbox"
+        />Action Movies</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="romantic-movies"
+          type="checkbox"
+          class="input-checkbox"
+        />Romantic Movies</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="thriller-movies"
+          type="checkbox"
+          class="input-checkbox"
+        />Thriller Movies</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="super-hero-movies"
+          type="checkbox"
+          class="input-checkbox"
+        />Super Hero Movies</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="comedy-tv-shows"
+          type="checkbox"
+          class="input-checkbox"
+        />Comedy TV Shows</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="action-tv-shows"
+          type="checkbox"
+          class="input-checkbox"
+        />Action TV Shows</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="romantic-tv-shows"
+          type="checkbox"
+          class="input-checkbox"
+        />Romantic TV Shows</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="thriller-tv-shows"
+          type="checkbox"
+          class="input-checkbox"
+        />Thriller TV Shows</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="super-hero-tv-shows"
+          type="checkbox"
+          class="input-checkbox"
+        />Super Hero TV Shows</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="other-content"
+          type="checkbox"
+          class="input-checkbox"
+        />Other Content</label
+      >
+    </div>
+
+    <div class="form-group">
+      <p>List other content you watch below.</p>
+      <textarea
+        id="comments"
+        class="input-textarea"
+        name="other-content"
+        placeholder="Enter other content here..."
+      ></textarea>
+    </div>
+
+    <div class="form-group">
+      <button type="submit" id="submit" class="submit-button">
+        Submit
+      </button>
+    </div>
+  </form>
+</div>
+
+    
